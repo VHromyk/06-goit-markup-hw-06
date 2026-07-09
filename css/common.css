@@ -62,7 +62,7 @@ img {
 }
 
 .container {
-  max-width: 1158px;
+  max-width: 320px;
   padding-left: 16px;
   padding-right: 16px;
   margin-left: auto;
@@ -87,12 +87,6 @@ img {
   margin: -1px;
 }
 
-@media (min-width: 320px) {
-  .container {
-    max-width: 320px;
-  }
-}
-
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -102,6 +96,8 @@ img {
 @media (min-width: 1158px) {
   .container {
     max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .section {

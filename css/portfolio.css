@@ -66,6 +66,12 @@
   transform: translateY(0);
 }
 
+@media (min-width: 768px) and (max-width: 1157px) {
+  .portfolio-list {
+    row-gap: 72px;
+  }
+}
+
 @media (min-width: 768px) {
   .portfolio-list {
     flex-direction: row;

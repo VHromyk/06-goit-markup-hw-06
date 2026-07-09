@@ -108,6 +108,7 @@
 @media (min-width: 768px) {
   .nav {
     display: block;
+    margin-left: 120px;
   }
 
   .nav-button {
@@ -123,16 +124,21 @@
     justify-content: center;
     gap: 12px;
   }
+
+  .header-inner {
+    gap: 0;
+    width: auto;
+  }
 }
 
 @media (min-width: 1158px) {
+  .nav {
+    margin-left: 76px;
+  }
+
   .address-list {
     flex-direction: row;
     gap: 40px;
-  }
-
-  .header-inner {
-    width: fit-content;
   }
 
   .address-link {
